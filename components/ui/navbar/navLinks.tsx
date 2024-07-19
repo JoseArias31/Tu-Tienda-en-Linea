@@ -13,12 +13,12 @@ const links: NavLinkProps[] = [
   {
     id: "home",
     path: "/",
-    name: "Home",
+    name: "Menu",
   },
   {
     id: "shop",
     path: "/shop",
-    name: "Shop",
+    name: "Compra",
     subLinks: [
       {
         id: "all-categories",
@@ -76,12 +76,12 @@ const links: NavLinkProps[] = [
   {
     id: "product",
     path: "/product",
-    name: "Product",
+    name: "Productos",
   },
   {
     id: "contact-us",
     path: "/contact-us",
-    name: "Contact Us",
+    name: "Contacto",
   },
 ];
 
@@ -94,8 +94,8 @@ export default function NavLinks() {
         <li
           key={link.id}
           className={cn(
-            "font-inter text-sm font-medium text-[#141718] hover:opacity-100",
-            pathname !== link.path && "opacity-70",
+            "font-inter text-sm font-medium text-[#141718] hover:opacity-100 text-[20px] strong",
+            pathname !== link.path && "opacity-80",
           )}
         >
           {link.subLinks ? (

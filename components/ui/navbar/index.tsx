@@ -45,7 +45,7 @@ const Navbar: React.FC<NavbarProps> = () => {
       <div
         className={cn(
           "sticky top-0 z-[100]",
-          isRootPage ? "bg-[#ffc95c]" : "bg-white",
+          isRootPage ? "bg-[#5275c7]" : "bg-white",
           scroll && "bg-white shadow transition-colors duration-200 ease-in",
         )}
       >

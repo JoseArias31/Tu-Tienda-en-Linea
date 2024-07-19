@@ -38,7 +38,7 @@ export default function Home() {
               
             </Heading>
             <Text className="md:text-lg lg:text-xl">
-              Precios increibles y entregas inmediatas
+              <strong>Precios increibles y entregas inmediatas a toda Colombia!</strong>
             </Text>
           </div>
           <Button fontSize="sm" className="px-14 py-3 md:text-lg">
@@ -52,7 +52,7 @@ export default function Home() {
             src="/images/main.png"
             width={600}
             height={761}
-            alt="nigga-listening-music"
+            alt="Girl-enjoying her Laptop"
             className="w-full max-w-[360px] object-cover object-top lg:max-w-[420px] xl:max-w-[460px]"
           />
         </div>

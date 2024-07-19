@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import PageLayout from "@/layouts/pageLayout";
 
 export const metadata: Metadata = {
-  title: "Kupingplug - Sumpel kuping untuk anda dan keluarga",
-  description: "Kupingplug - Sumpel kuping untuk anda dan keluarga",
+  title: "Tu tienda Virtual",
+  description: "Tu tienda Virtual, facil y a toda Colombia",
 };
 
 export default function RootLayout({

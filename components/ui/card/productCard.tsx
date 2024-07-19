@@ -53,10 +53,11 @@ const Thumbnail: React.FC<ThumbnailProps> = ({ className, children }) => {
   return (
     <div
       className={cn(
-        "group relative flex h-[308px] w-full flex-col justify-between overflow-hidden bg-[#F3F5F7] p-3.5",
+        "group relative flex h-[300px] w-full flex-col justify-between overflow-hidden bg-[#F3F5F7] p-3.5",
         className,
       )}
     >
+       
       {children}
     </div>
   );
