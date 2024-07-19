@@ -27,22 +27,22 @@ export default function Home() {
     <>
       {/* Hero section */}
       <SectionLayout
-        bg="bg-[#ffc95c]"
+        bg="bg-[#5275c7]"
         className="flex flex-col items-center justify-between lg:grid lg:grid-cols-2 lg:pt-8"
       >
         {/* Text content */}
         <div className="flex flex-col items-center gap-4 p-8 sm:max-w-[600px] md:max-w-[600px] md:py-16 lg:order-2 lg:max-w-none lg:items-start lg:p-0">
           <div className="space-y-2 text-center lg:text-left">
             <Heading as="h1" intent="hero-section">
-              Listen to the <span className="text-[#377DFF]">amazing</span>{" "}
-              music sound.
+              Los Mejores <span className="text-[#fff]">Computadores</span>{" "}
+              
             </Heading>
             <Text className="md:text-lg lg:text-xl">
-              Experience music like never before
+              Precios increibles y entregas inmediatas
             </Text>
           </div>
           <Button fontSize="sm" className="px-14 py-3 md:text-lg">
-            Shopping Now
+            Compra Ahora!
           </Button>
         </div>
 
@@ -66,7 +66,7 @@ export default function Home() {
             intent="base-section"
             className="text-center md:text-left"
           >
-            New Arrivals
+            Nuevos Equipos!
           </Heading>
 
           {/* catalog product slider */}
