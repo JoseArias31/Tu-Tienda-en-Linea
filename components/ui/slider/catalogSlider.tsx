@@ -81,7 +81,7 @@ export default function CatalogSlider() {
             <ProductCard.Root data={product}>
               <ProductCard.Thumbnail>
                 <ProductCard.ThumbnailBadge>
-                  <ProductCard.Badge>new</ProductCard.Badge>
+                  <ProductCard.Badge>Nuevo</ProductCard.Badge>
                   <ProductCard.WishlistButton />
                 </ProductCard.ThumbnailBadge>
 

@@ -129,18 +129,18 @@ export default function Page() {
               weight={500}
               className="flex items-center gap-1"
             >
-              Home{" "}
+              Menu{" "}
               <DropdownIcon stroke="#6C7275" className="h-3 w-3 -rotate-90" />
             </Text>
             <Text size="sm" weight={500}>
-              Shop
+              Tienda
             </Text>
           </div>
           <Heading as="h1" intent="shop-page">
-            Shop Page
+            Pagina de compra 
           </Heading>
           <Text className="lg:text-lg">
-            Listen to the amazing music sound. Mari ngrungokne sworo.
+            Compra los mejores productos de Tecnologia a tu gusto
           </Text>
         </div>
 

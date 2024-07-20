@@ -39,7 +39,7 @@ export default function PromoSection() {
                 isRootPage ? "text-[#FEFEFE]" : "text-[#343839]",
               )}
             >
-              30% off storewide — Limited time!
+              5% de descuento en toda la tienda — Tiempo Limitado!
               <Link href="/shop">
                 <span
                   className={cn(
@@ -49,7 +49,7 @@ export default function PromoSection() {
                       : "border-[#377DFF] text-[#377DFF]",
                   )}
                 >
-                  Shop Now
+                  Compra Ahora
                   <ArrowRightIcon
                     className="h-5 w-5"
                     stroke={cn(isRootPage ? "#FFAB00" : "#377DFF")}
@@ -71,7 +71,10 @@ export default function PromoSection() {
         {/* close button (tablet & desktop) */}
         <div className="absolute bottom-0 right-8 hidden h-full items-center md:flex">
           <button onClick={() => setShowPromo(false)}>
-            <CloseIcon className="h-5 w-5" fill="#343839" />
+            <CloseIcon
+            className="h-5 w-5"
+            fill={cn(isRootPage ? "#FEFEFE" : "#343839")} 
+            />
           </button>
         </div>
       </div>

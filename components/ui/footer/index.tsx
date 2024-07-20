@@ -15,29 +15,27 @@ const Footer = () => {
         <div className="flex flex-col gap-10 lg:flex-row lg:items-center lg:justify-between lg:gap-0">
           <div className="flex flex-col items-center gap-4 lg:flex-row lg:gap-0">
             <h3 className="font-poppins text-2xl font-medium text-white lg:border-r lg:border-[#6C7275] lg:pr-8">
-              Kupingplug<span className="text-[#6C7275]">.</span>
+              Tu Tienda en Linea<span className="text-[#6C7275]">.</span>
             </h3>
             <span className="h-[1px] w-8 rounded-full bg-[#6C7275] lg:hidden"></span>
             <Text size="sm" color="white/900" className="lg:pl-8">
-              Headphone Store
+              Tienda de computo
             </Text>
           </div>
 
           <ul className="flex flex-col gap-8 lg:flex-row lg:gap-10">
             <li className="text-center font-inter text-sm font-normal text-[#FEFEFE]">
-              <Link href="/">Home</Link>
+              <Link href="/">Menu</Link>
             </li>
             <li className="text-center font-inter text-sm font-normal text-[#FEFEFE]">
-              <Link href="/">Shop</Link>
+              <Link href="/">Tienda</Link>
             </li>
             <li className="text-center font-inter text-sm font-normal text-[#FEFEFE]">
-              <Link href="/">Product</Link>
+              <Link href="/">Productos</Link>
             </li>
+           
             <li className="text-center font-inter text-sm font-normal text-[#FEFEFE]">
-              <Link href="/">Blog</Link>
-            </li>
-            <li className="text-center font-inter text-sm font-normal text-[#FEFEFE]">
-              <Link href="/">Contact Us</Link>
+              <Link href="/">Contacto</Link>
             </li>
           </ul>
         </div>
@@ -56,10 +54,10 @@ const Footer = () => {
           <div className="flex flex-col gap-7 lg:order-1 lg:flex-row">
             <div className="flex justify-center gap-7 lg:order-2">
               <Text size="xs" weight={600} family="poppins" color="white/900">
-                Privacy Policy
+                Politicas de Privacidad
               </Text>
               <Text size="xs" weight={600} family="poppins" color="white/900">
-                Term of Use
+                Terminos de uso
               </Text>
             </div>
 
@@ -69,7 +67,7 @@ const Footer = () => {
               color="white/800"
               className="text-center lg:order-1 lg:text-left"
             >
-              Copyright © 2023 Kupingplug. All rights reserved
+              Derechos de Autor © 2024 Tu tienda en linea. Todos los derechos reservados
             </Text>
           </div>
         </div>

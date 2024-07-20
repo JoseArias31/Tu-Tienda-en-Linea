@@ -82,7 +82,7 @@ export default function Home() {
             intent="base-section"
             className="text-center md:text-left"
           >
-            Shop Collection
+            Colecciones
           </Heading>
 
           <div className="grid grid-cols-1 place-items-center gap-4 sm:grid-cols-2 lg:h-[560px]">
@@ -100,11 +100,11 @@ export default function Home() {
 
               <div className="relative flex h-full flex-col justify-end gap-2">
                 <Heading as="h3" intent="collection-card">
-                  Headband
+                  Laptops
                 </Heading>
                 <Link href="/shop" className="w-fit">
                   <span className="flex w-fit items-center gap-1 border-b border-[#121212]">
-                    Collection{" "}
+                    Bodega{" "}
                     <ArrowRightIcon stroke="#121212" className="h-4 w-4" />
                   </span>
                 </Link>
@@ -125,11 +125,11 @@ export default function Home() {
 
               <div className="relative flex h-full flex-col justify-end gap-2">
                 <Heading as="h3" intent="collection-card">
-                  Earbuds
+                  Celulares
                 </Heading>
                 <Link href="/shop" className="w-fit">
                   <span className="flex w-fit items-center gap-1 border-b border-[#121212]">
-                    Collection{" "}
+                    Bodega{" "}
                     <ArrowRightIcon stroke="#121212" className="h-4 w-4" />
                   </span>
                 </Link>
@@ -150,11 +150,11 @@ export default function Home() {
 
               <div className="relative flex h-full flex-col justify-end gap-2">
                 <Heading as="h3" intent="collection-card">
-                  Accessories
+                  Accesorios
                 </Heading>
                 <Link href="/shop" className="w-fit">
                   <span className="flex w-fit items-center gap-1 border-b border-[#121212]">
-                    Collection{" "}
+                    Bodega{" "}
                     <ArrowRightIcon stroke="#121212" className="h-4 w-4" />
                   </span>
                 </Link>
@@ -172,7 +172,7 @@ export default function Home() {
             intent="base-section"
             className="text-center md:text-left"
           >
-            Best Seller
+            Productos Populares
           </Heading>
 
           <div className="grid grid-cols-2 gap-x-2 gap-y-4 md:grid-cols-3 lg:grid-cols-4 lg:gap-x-4 lg:gap-y-8 xl:grid-cols-5">
@@ -180,7 +180,7 @@ export default function Home() {
               <ProductCard.Root key={product.id} data={product}>
                 <ProductCard.Thumbnail>
                   <ProductCard.ThumbnailBadge>
-                    <ProductCard.Badge>new</ProductCard.Badge>
+                    <ProductCard.Badge>Nuevo</ProductCard.Badge>
                     <ProductCard.WishlistButton />
                   </ProductCard.ThumbnailBadge>
 
@@ -200,7 +200,7 @@ export default function Home() {
 
       {/* Promotion section */}
       <div className="grid overflow-hidden md:grid-cols-2 lg:h-full lg:max-h-[500px] lg:place-items-center">
-        <div className="w-full justify-end bg-gray-400 md:flex">
+        <div className="w-full justify-end bg-[#455483] md:flex">
           <Image
             src="/images/promotion-card.png"
             width={1250}
@@ -210,19 +210,19 @@ export default function Home() {
           />
         </div>
 
-        <div className="order-1 w-full bg-[#ffdd99] md:order-2">
+        <div className="order-1 w-full bg-[#5275c7] md:order-2">
           <div className="w-full max-w-[720px] space-y-6 p-8">
             <div className="space-y-4">
-              <Text weight={700} transform="uppercase" color="blue">
-                promotion
+              <Text weight={700} transform="uppercase" color="white">
+                Promocion
               </Text>
               <Heading as="h2" intent="base-section">
-                Hurry up! 40% OFF
+                Apresurate! 5% de descuento
               </Heading>
-              <Text size="sm">Thousands of high tech are waiting for you</Text>
+              <Text size="sm">Cientos de productos de alta tecnologia esperan por ti</Text>
             </div>
             <div className="space-y-3">
-              <Text>Offer expires in:</Text>
+              <Text>La oferta expira en:</Text>
               <div className="flex gap-4">
                 <div className="w-fit">
                   <div className="flex h-[60px] w-[60px] items-center justify-center bg-white">
@@ -236,7 +236,7 @@ export default function Home() {
                     </Text>
                   </div>
                   <Text size="xs" color="black/800" className="text-center">
-                    Days
+                    Dias
                   </Text>
                 </div>
                 <div className="w-fit">
@@ -251,7 +251,7 @@ export default function Home() {
                     </Text>
                   </div>
                   <Text size="xs" color="black/800" className="text-center">
-                    Hours
+                    Horas
                   </Text>
                 </div>
                 <div className="w-fit">
@@ -266,7 +266,7 @@ export default function Home() {
                     </Text>
                   </div>
                   <Text size="xs" color="black/800" className="text-center">
-                    Minutes
+                    Minutos
                   </Text>
                 </div>
                 <div className="w-fit">
@@ -281,13 +281,13 @@ export default function Home() {
                     </Text>
                   </div>
                   <Text size="xs" color="black/800" className="text-center">
-                    Seconds
+                    Segundos
                   </Text>
                 </div>
               </div>
             </div>
             <Button fontSize="sm" className="py-1.5 md:text-base">
-              Shop now
+              Compra Ahora
             </Button>
           </div>
         </div>
@@ -306,10 +306,10 @@ export default function Home() {
                 color="black/800"
                 className="lg:text-xl"
               >
-                Free Shipping
+                Envio Gratis
               </Text>
               <Text size="sm" color="gray">
-                Order above $200
+                Mayores a $100.000
               </Text>
             </div>
           </div>
@@ -323,10 +323,10 @@ export default function Home() {
                 color="black/800"
                 className="lg:text-xl"
               >
-                Money-back
+                Reembolsos
               </Text>
               <Text size="sm" color="gray">
-                30 days guarantee
+                30 dias de garantia
               </Text>
             </div>
           </div>
@@ -340,10 +340,10 @@ export default function Home() {
                 color="black/800"
                 className="lg:text-xl"
               >
-                Secure Payments
+                Metodos de pago seguro
               </Text>
               <Text size="sm" color="gray">
-                Secured by Striped
+                Pagos Encriptados
               </Text>
             </div>
           </div>
@@ -357,10 +357,10 @@ export default function Home() {
                 color="black/800"
                 className="lg:text-xl"
               >
-                24/7 Support
+                Soporte 24/7
               </Text>
               <Text size="sm" color="gray">
-                Phone and Email support
+                Telefono, chat y correo
               </Text>
             </div>
           </div>
@@ -372,16 +372,16 @@ export default function Home() {
         <div className="space-y-10 px-8 py-10">
           <div className="space-y-4 text-center">
             <Text weight={700} transform="uppercase" color="gray">
-              newsfeed
+              Noticias
             </Text>
             <Heading as="h2" intent="base-section">
               Instagram
             </Heading>
             <Text size="sm">
-              Follow us on social media for more discount & promotions
+              Siguenos en Instagram para recibir mas descuentos
             </Text>
             <Text size="xl" weight={500} family="poppins" color="gray">
-              @kupingplug_official
+              @tutiendaenlinea
             </Text>
           </div>
         </div>
