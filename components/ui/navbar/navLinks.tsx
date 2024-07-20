@@ -23,12 +23,12 @@ const links: NavLinkProps[] = [
       {
         id: "all-categories",
         path: "/shop",
-        name: "All Categories",
+        name: "Todas las categorias",
       },
       {
         id: "earphones",
         path: "/shop?category=earphones",
-        name: "Earphones",
+        name: "Laptops",
         subLinks: [
           {
             id: "earbud",
