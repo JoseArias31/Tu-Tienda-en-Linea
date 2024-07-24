@@ -92,21 +92,21 @@ export default function Home() {
           </Heading>
 
           <div className="grid grid-cols-1 place-items-center gap-4 sm:grid-cols-2 lg:h-[560px]">
-            {/* Main collection */}
-            <div className="relative aspect-[0.8/1] min-h-[377px] w-full min-w-[311px] bg-[#F3F5F7] p-8 sm:row-span-2 sm:aspect-auto sm:h-full sm:min-w-0">
+          {/* Another collection */}
+          <div className="relative aspect-[1/0.5] min-h-[180px] w-full min-w-[311px] bg-[#F3F5F7] p-8 sm:aspect-auto sm:h-full sm:min-w-0">
               <div className="absolute inset-0 flex h-full w-full items-center justify-center overflow-hidden">
                 <Image
-                  src="/images/sumplekuping-2.png"
+                  src="/images/sumplekuping-4.png"
                   width={262}
                   height={349}
                   alt="background collection"
-                  className="aspect-[0.75/1] w-[80%] -translate-y-[10%] object-center md:w-[60%]"
+                  className="aspect-[0.75/1] w-[50%] translate-x-1/2 md:w-[40%]"
                 />
               </div>
 
               <div className="relative flex h-full flex-col justify-end gap-2">
                 <Heading as="h3" intent="collection-card">
-                  Laptops
+                  Laptos <br></br>Nuevas - Usadas
                 </Heading>
                 <Link href="/shop" className="w-fit">
                   <span className="flex w-fit items-center gap-1 border-b border-[#121212]">
@@ -117,8 +117,8 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Another collection */}
-            <div className="relative aspect-[1/0.5] min-h-[180px] w-full min-w-[311px] bg-[#F3F5F7] p-8 sm:aspect-auto sm:h-full sm:min-w-0">
+              {/* Another collection */}
+              <div className="relative aspect-[1/0.5] min-h-[180px] w-full min-w-[311px] bg-[#F3F5F7] p-8 sm:aspect-auto sm:h-full sm:min-w-0">
               <div className="absolute inset-0 flex h-full w-full items-center justify-center overflow-hidden">
                 <Image
                   src="/images/sumplekuping-4.png"
@@ -146,7 +146,7 @@ export default function Home() {
             <div className="relative aspect-[1/0.5] min-h-[180px] w-full min-w-[311px] bg-[#F3F5F7] p-8 sm:aspect-auto sm:h-full sm:min-w-0">
               <div className="absolute inset-0 flex h-full w-full items-center justify-center overflow-hidden">
                 <Image
-                  src="/images/sumplekuping-5.png"
+                  src="/images/sumplekuping-4.png"
                   width={262}
                   height={349}
                   alt="background collection"
@@ -157,6 +157,33 @@ export default function Home() {
               <div className="relative flex h-full flex-col justify-end gap-2">
                 <Heading as="h3" intent="collection-card">
                   Accesorios
+                </Heading>
+                <Link href="/shop" className="w-fit">
+                  <span className="flex w-fit items-center gap-1 border-b border-[#121212]">
+                    Bodega{" "}
+                    <ArrowRightIcon stroke="#121212" className="h-4 w-4" />
+                  </span>
+                </Link>
+              </div>
+            </div>
+
+            
+
+            {/* Another collection */}
+            <div className="relative aspect-[1/0.5] min-h-[180px] w-full min-w-[311px] bg-[#F3F5F7] p-8 sm:aspect-auto sm:h-full sm:min-w-0">
+              <div className="absolute inset-0 flex h-full w-full items-center justify-center overflow-hidden">
+                <Image
+                  src="/images/sumplekuping-5.png"
+                  width={262}
+                  height={349}
+                  alt="background collection"
+                  className="aspect-[0.75/1] w-[50%] translate-x-1/2 md:w-[40%]"
+                />
+              </div>
+
+              <div className="relative flex h-full flex-col justify-end gap-2">
+                <Heading as="h3" intent="collection-card">
+                  Software
                 </Heading>
                 <Link href="/shop" className="w-fit">
                   <span className="flex w-fit items-center gap-1 border-b border-[#121212]">
@@ -178,7 +205,7 @@ export default function Home() {
             intent="base-section"
             className="text-center md:text-left"
           >
-            Productos Populares
+            Promociones Destacadas
           </Heading>
 
           <div className="grid grid-cols-2 gap-x-2 gap-y-4 md:grid-cols-3 lg:grid-cols-4 lg:gap-x-4 lg:gap-y-8 xl:grid-cols-5">

@@ -28,7 +28,7 @@ const Navbar: React.FC<NavbarProps> = () => {
   const isRootPage = useRootContext();
   const [open, setOpen] = useState<boolean>(false);
   const [scroll, setScroll] = useState<boolean>(false);
-
+  
   const handleOnScroll = () => {
     window.scrollY >= 32 ? setScroll(true) : setScroll(false);
   };
@@ -55,7 +55,9 @@ const Navbar: React.FC<NavbarProps> = () => {
               <HamburgerMenu className="w-6" />
             </button>
 
-            <Logo />
+            <Logo
+             
+            />
           </div>
 
           <div className="hidden basis-2/4 lg:block">
