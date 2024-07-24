@@ -31,53 +31,58 @@ const links: NavLinkProps[] = [
         name: "Laptops",
         subLinks: [
           {
-            id: "earbud",
+            id: "Nuevas",
             path: "/shop?category=earphones&type=earbud",
-            name: "Earbuds",
+            name: "Nuevas",
           },
           {
-            id: "iem",
+            id: "Usadas",
             path: "/shop?category=earphones&type=iem",
-            name: "IEMs (In-Ear Monitors)",
+            name: "Usadas",
           },
         ],
       },
       {
-        id: "headsets",
+        id: "Celulares",
         path: "/shop?category=headsets",
-        name: "Headsets (microphone)",
-        subLinks: [
-          {
-            id: "gaming-headset",
-            path: "/shop?category=gaming-headset",
-            name: "Gaming Headset",
-          },
-        ],
+        name: "Celulares",
+        // subLinks: [
+        //   {
+        //     id: "gaming-headset",
+        //     path: "/shop?category=gaming-headset",
+        //     name: "Gaming Headset",
+        //   },
+        // ],
       },
       {
-        id: "headphones",
+        id: "Accesorios",
         path: "/shop?category=headphones",
-        name: "Headphones",
-        subLinks: [
-          {
-            id: "bluetooth",
-            path: "/shop?category=headphones&type=bluetooth",
-            name: "Bluetooth",
-          },
-          {
-            id: "tws",
-            path: "/shop?category=headphones&type=tws",
-            name: "TWS",
-          },
-        ],
-      },
+        name: "Accesorios",
+        // subLinks: [
+        //   {
+        //     id: "bluetooth",
+        //     path: "/shop?category=headphones&type=bluetooth",
+        //     name: "Bluetooth",
+        //   },
+        //   {
+        //     id: "tws",
+        //     path: "/shop?category=headphones&type=tws",
+        //     name: "TWS",
+        //   },
+        // ],
+      },{
+        id: "Software",
+        path: "/shop?category=headphones",
+        name: "Software",
+      }
+      
     ],
   },
-  {
-    id: "product",
-    path: "/product",
-    name: "Productos",
-  },
+  // {
+  //   id: "product",
+  //   path: "/product",
+  //   name: "Productos",
+  // },
   {
     id: "contact-us",
     path: "/contact-us",

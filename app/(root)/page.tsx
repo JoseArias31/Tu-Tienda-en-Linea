@@ -47,9 +47,11 @@ export default function Home() {
               <strong>Precios increibles y entregas inmediatas a toda Colombia!</strong>
             </Text>
           </div>
+          <Link href={'/shop'}>
           <Button fontSize="sm" className="px-14 py-3 md:text-lg">
             Compra Ahora!
           </Button>
+          </Link>
         </div>
 
         {/* Image content */}
@@ -319,9 +321,11 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            <Link href={'/shop'}>
             <Button fontSize="sm" className="py-1.5 md:text-base">
               Compra Ahora
             </Button>
+            </Link>
           </div>
         </div>
       </div>
