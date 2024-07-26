@@ -6,10 +6,12 @@ import SectionLayout from "@/layouts/sectionLayout";
 
 // ui
 import Text from "@/ui/text";
+import Heading from "@/ui/head"
 import { FacebookIcon, InstagramIcon, YoutubeIcon } from "@/ui/assets/svg";
 
 const Footer = () => {
   return (
+    
     <SectionLayout bg="bg-[#141718]">
       <div className="space-y-10 px-8 py-12 lg:space-y-12">
         <div className="flex flex-col gap-10 lg:flex-row lg:items-center lg:justify-between lg:gap-0">

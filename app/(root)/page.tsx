@@ -405,24 +405,7 @@ export default function Home() {
       </SectionLayout>
 
       {/* Newsfeed section */}
-      <SectionLayout>
-        <div className="space-y-10 px-8 py-10">
-          <div className="space-y-4 text-center">
-            <Text weight={700} transform="uppercase" color="gray">
-              Noticias
-            </Text>
-            <Heading as="h2" intent="base-section">
-              Instagram
-            </Heading>
-            <Text size="sm">
-              Siguenos en Instagram para recibir mas descuentos
-            </Text>
-            <Text size="xl" weight={500} family="poppins" color="gray">
-              @tutiendaenlinea
-            </Text>
-          </div>
-        </div>
-      </SectionLayout>
+   
     </>
   );
 }

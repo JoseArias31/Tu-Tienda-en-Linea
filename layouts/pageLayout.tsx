@@ -2,8 +2,10 @@
 // ui
 import Navbar from "@/ui/navbar";
 import Footer from "@/ui/footer";
+import Contact from "@/ui/contact"
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import {whatsappProps} from '@/ui/whatsApp/whatsappConfig'
+
 
 // hooks
 import { RootContextProvider } from "@/hooks/rootContext";
@@ -23,6 +25,7 @@ export default function PageLayout({ root, children }: PageLayoutProps) {
     />
       </RootContextProvider>
       <main>{children}</main>
+<Contact />
       <Footer />
     </>
   );
