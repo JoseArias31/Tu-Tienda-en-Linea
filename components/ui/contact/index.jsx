@@ -10,7 +10,7 @@ function Contact () {
         <Heading as="h2" intent="base-section">
               Contacto
             </Heading>
-          <div className="space-y-4 text-center flex justify-evenly flex-row items-center">
+          <div className="space-y-4 text-center flex justify-evenly flex-row items-center" style={{justifyContent:"space-evenly"}}>
          <div className="mt-0">
             <Text weight={700} transform="uppercase" color="gray">
               Telefono

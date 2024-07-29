@@ -2,10 +2,10 @@
   {
     "id": 1,
     "image": {
-      "src": "/images/sumplekuping-1.png",
+      "src": "/images/14.png",
       "alt": "Portail HP 14-DQ0517LA"
     },
-    "rating": 5,
+    "rating": 4,
     "name": "Portatil HP-14DQ0517LA",
     "price": 959000,
     "description": "With its soft shape and color, this spacious basket is just as decorative wherever you choose to put it."
@@ -13,56 +13,56 @@
   {
     "id": 2,
     "image": {
-      "src": "/images/sumplekuping-2.png",
-      "alt": "sumple-kuping"
+      "src": "/images/S AO3.jpg",
+      "alt": "Samsung AO3"
     },
-    "rating": 5,
-    "name": "Beats Studio Pro",
-    "price": 349,
+    "rating": 4,
+    "name": "Celular Samsung AO3",
+    "price": 550000,
     "description": "With its soft shape and color, this spacious basket is just as decorative wherever you choose to put it."
   },
   {
     "id": 3,
     "image": {
-      "src": "/images/sumplekuping-3.png",
-      "alt": "sumple-kuping"
+      "src": "/images/HP 1135G7.jpg",
+      "alt": "HP 1135G7"
     },
-    "rating": 4,
-    "name": "Sony - WH-CH720N Wireless Noise Canceling",
-    "price": 149,
+    "rating": 5,
+    "name": "Portatil HP 1135G7",
+    "price": 1879000,
     "description": "With its soft shape and color, this spacious basket is just as decorative wherever you choose to put it."
   },
   {
     "id": 4,
     "image": {
-      "src": "/images/sumplekuping-4.png",
-      "alt": "sumple-kuping"
+      "src": "/images/Lenovo Ryzen 5 752OU.jpg",
+      "alt": "Lenovo Ryzen 5 7502OU"
     },
     "rating": 5,
-    "name": "Skullcandy - Rail True Wireless Earbuds",
-    "price": 99,
+    "name": "Portatil Lenovo Ryzen 5 7502OU",
+    "price": 1385000,
     "description": "With its soft shape and color, this spacious basket is just as decorative wherever you choose to put it."
   },
   {
     "id": 5,
     "image": {
-      "src": "/images/sumplekuping-5.png",
-      "alt": "sumple-kuping"
+      "src": "/images/ASUS CX1400.jpg",
+      "alt": "ASUS CX1400"
     },
     "rating": 5,
-    "name": "Beats Studio Pro",
-    "price": 249,
+    "name": "Portatil ASUS CX1400 + Mouse",
+    "price": 899000,
     "description": "With its soft shape and color, this spacious basket is just as decorative wherever you choose to put it."
   },
   {
     "id": 6,
     "image": {
-      "src": "/images/sumplekuping-6.png",
-      "alt": "sumple-kuping"
+      "src": "/images/S Tap A9.jpg",
+      "alt": "Samsung Tap A9"
     },
     "rating": 4,
-    "name": "JBL Reflect Flow Pro+ Bluetooth Truly Wireless Sports",
-    "price": 179,
+    "name": "Samsung Tap A9 + Micro SD 64 GB",
+    "price": 732000,
     "description": "With its soft shape and color, this spacious basket is just as decorative wherever you choose to put it."
   },
   {

@@ -53,7 +53,8 @@ const Thumbnail: React.FC<ThumbnailProps> = ({ className, children }) => {
   return (
     <div
       className={cn(
-        "group relative flex h-[300px] w-full flex-col justify-between overflow-hidden bg-[#F3F5F7] p-3.5",
+        "group relative flex h-[300px] w-auto flex-col justify-between overflow-hidden bg-[#F3F5F7] p-3.5 ",
+        
         className,
       )}
     >
@@ -143,7 +144,7 @@ const Image: React.FC<ImageProps> = ({
       height={height}
       alt={image.alt}
       className={cn(
-        "absolute left-0 top-0 z-0 h-full w-full object-cover",
+        "absolute left-0 top-0 z-0 h-full w-full object-contain",
         className,
       )}
       {...props}
