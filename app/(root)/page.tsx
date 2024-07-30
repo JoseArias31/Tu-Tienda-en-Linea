@@ -93,16 +93,16 @@ export default function Home() {
             Colecciones
           </Heading>
 
-          <div className="grid grid-cols-1 place-items-center gap-4 sm:grid-cols-2 lg:h-[560px]">
+          <div className="grid grid-cols-1 place-items-center gap-4 sm:grid-cols-2 lg:h-[560px] ">
           {/* Another collection */}
           <div className="relative aspect-[1/0.5] min-h-[180px] w-full min-w-[311px] bg-[#F3F5F7] p-8 sm:aspect-auto sm:h-full sm:min-w-0">
-              <div className="absolute inset-0 flex h-full w-full items-center justify-center overflow-hidden">
+              <div className="absolute inset-0 flex h-full w-full items-center justify-center overflow-hidden ">
                 <Image
-                  src="/images/sumplekuping-4.png"
+                  src="/images/Portatiles.png"
                   width={262}
                   height={349}
                   alt="background collection"
-                  className="aspect-[0.75/1] w-[50%] translate-x-1/2 md:w-[40%]"
+                  className="aspect-[0.75/1] w-[50%] translate-x-1/2 md:w-[40%] object-contain"
                 />
               </div>
 
@@ -123,11 +123,11 @@ export default function Home() {
               <div className="relative aspect-[1/0.5] min-h-[180px] w-full min-w-[311px] bg-[#F3F5F7] p-8 sm:aspect-auto sm:h-full sm:min-w-0">
               <div className="absolute inset-0 flex h-full w-full items-center justify-center overflow-hidden">
                 <Image
-                  src="/images/sumplekuping-4.png"
+                  src="/images/Celulares.png"
                   width={262}
                   height={349}
                   alt="background collection"
-                  className="aspect-[0.75/1] w-[50%] translate-x-1/2 md:w-[40%]"
+                  className="aspect-[0.75/1] w-[60%] translate-x-1/2 md:w-[40%] object-contain"
                 />
               </div>
 
@@ -148,11 +148,11 @@ export default function Home() {
             <div className="relative aspect-[1/0.5] min-h-[180px] w-full min-w-[311px] bg-[#F3F5F7] p-8 sm:aspect-auto sm:h-full sm:min-w-0">
               <div className="absolute inset-0 flex h-full w-full items-center justify-center overflow-hidden">
                 <Image
-                  src="/images/sumplekuping-4.png"
+                  src="/images/AccesoriosNoB.png"
                   width={262}
                   height={349}
                   alt="background collection"
-                  className="aspect-[0.75/1] w-[50%] translate-x-1/2 md:w-[40%]"
+                  className="aspect-[0.75/1] w-[50%] translate-x-1/2 md:w-[40%] object-contain "
                 />
               </div>
 
@@ -175,11 +175,11 @@ export default function Home() {
             <div className="relative aspect-[1/0.5] min-h-[180px] w-full min-w-[311px] bg-[#F3F5F7] p-8 sm:aspect-auto sm:h-full sm:min-w-0">
               <div className="absolute inset-0 flex h-full w-full items-center justify-center overflow-hidden">
                 <Image
-                  src="/images/sumplekuping-5.png"
+                  src="/images/programas-para-pc.png"
                   width={262}
                   height={349}
                   alt="background collection"
-                  className="aspect-[0.75/1] w-[50%] translate-x-1/2 md:w-[40%]"
+                  className="aspect-[0.75/1] w-[50%] translate-x-1/2 md:w-[40%] object-contain"
                 />
               </div>
 
